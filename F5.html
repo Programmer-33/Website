@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is HTML Forms tutorial.</h2>
+    <form action="backend.php">
+        <label for="name"> Name </label>
+        <div>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <label for="role"> Role </label>
+        <div>
+            <input type="number" name="myrole" id="role">
+        </div>
+        <br>
+        <label for="email"> E-mail </label>
+        <div>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <label for="date"> Date </label>
+        <div>
+            <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <label for="bonus"> Bonus </label>
+        <div>
+            <input type="number" name="mybonus" id="bonus">
+        </div>
+        <br>
+        <label for="eligible"> Are You Eligible? </label>
+        <div>
+            <input type="checkbox" name="myeligibility" id="eligible">
+        </div>
+        <br>
+        <label for="gender"> Gender </label>
+
+        <div>
+            Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+            Other <input type="radio" name="mygender" id="gender">
+        </div>
+        <br>
+        <label for="write"> Write about yourself </label>
+        <br>
+        <div>
+            <textarea name="myText" cols="30" rows="10" id="write"></textarea>
+        </div>
+        <br>
+        <label for="car"> Car </label>
+        <div>
+            <select name="mycar" id="car">
+                <option value="ind"> Indica </option>
+                <option value="swf"> Swift </option>
+                <option value="end"> Endeavour </option>
+                <option value="cta"> Creta </option>
+                <option value="cia" selected> Ciaz </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+
+</html>
